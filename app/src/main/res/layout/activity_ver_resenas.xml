@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerResenasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/activity_vertical_margin"
+            android:text="@string/resenas"
+            android:textAlignment="center"
+            android:textColor="#2C0735"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listResenas"
+            android:layout_width="match_parent"
+            android:layout_height="520dp" />
+
+        <Button
+            android:id="@+id/btnRegresarResenas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/button_margin"
+            android:layout_marginVertical="@dimen/activity_vertical_margin"
+            android:backgroundTint="#97DFFC"
+            android:text="@string/regresar"
+            android:textColor="#000000" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

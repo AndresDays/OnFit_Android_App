@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Clase de Yoga"
+                    android:textAlignment="center"
+                    android:textColor="#97DFFC"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="288dp"
+                    android:src="@drawable/yoga" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text=" Clase enfocada en mejorar la flexibilidad, la fuerza y el bienestar general. Ideal para reducir el estrés y aumentar la concentración. A través de posturas físicas y técnicas de respiración, aprenderás a conectar cuerpo y mente."
+                    android:textAlignment="textStart"
+                    android:textColor="#4E148C"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Horario: Lunes y miércoles a las 8:00 AM. "
+                    android:textAlignment="center"
+                    android:textColor="#613DC1" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnyoga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#858AE3"
+                    android:text="Inscribirse" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Clase de Spinning"
+                        android:textAlignment="center"
+                        android:textColor="#97DFFC"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="288dp"
+                        android:src="@drawable/spinning" />
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="match_parent"
+                        android:layout_height="73dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Clase cardiovascular de alto rendimiento en bicicleta estática. Ideal para quemar calorías y mejorar la resistencia cardiovascular. Los entrenamientos varían en intensidad, proporcionando un excelente ejercicio para todo el cuerpo."
+                        android:textAlignment="textStart"
+                        android:textColor="#4E148C"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Horario: Martes y jueves a las 10:00 AM."
+                        android:textAlignment="center"
+                        android:textColor="#613DC1" />
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/buttonSpinning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="#858AE3"
+                        android:text="Inscribirse" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Clase de Pilates"
+                        android:textAlignment="center"
+                        android:textColor="#97DFFC"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/pilates" />
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Clase enfocada en el fortalecimiento del core (zona abdominal y lumbar). Utiliza movimientos controlados y respiración para mejorar la postura, la flexibilidad y la fuerza muscular. Ideal para quienes buscan tonificar y equilibrar el cuerpo."
+                        android:textColor="#4E148C"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Horario: Martes y jueves a las 9:00 AM."
+                        android:textAlignment="center"
+                        android:textColor="#613DC1" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/buttonPilates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="#858AE3"
+                        android:text="Inscribirse" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Clase de Zumba"
+                        android:textAlignment="center"
+                        android:textColor="#97DFFC"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="277dp"
+                        android:src="@drawable/zumba" />
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Clase de danza fitness basada en ritmos latinos. Es una manera divertida de hacer ejercicio mientras bailas y te mantienes en forma. Zumba es ideal para mejorar la coordinación y la resistencia cardiovascular."
+                        android:textColor="#4E148C"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Horario: Martes y jueves a las 7:00 PM."
+                        android:textAlignment="center"
+                        android:textColor="#613DC1" />
+
+                    <Button
+                        android:id="@+id/buttonZumba"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="#858AE3"
+                        android:text="Inscribirse" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

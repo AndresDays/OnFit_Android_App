@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="543dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <ScrollView
+        android:layout_width="377dp"
+        android:layout_height="622dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Sobre Nosotros"
+                android:textAlignment="center"
+                android:textColor="#482797"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                android:fontFamily="sans-serif"
+                android:text="En OnFit, somos más que un gimnasio, somos tu compañero de entrenamiento y bienestar. Nos apasiona ayudarte a alcanzar tus metas de salud y fitness, ya sea que estés comenzando tu viaje de acondicionamiento físico o busques desafiar tus límites. En OnFit, creemos en el equilibrio entre el cuerpo y la mente. Por eso, ofrecemos una amplia gama de clases grupales, entrenamientos funcionales, pesas, cardio, y zonas de estiramiento. Además, brindamos un ambiente cómodo y amigable, donde cada miembro es tratado como una parte fundamental de nuestra comunidad."
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Nuestras Sucursales"
+                android:textAlignment="center"
+                android:textColor="#472796"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Sucursal &quot;Nombre&quot; / Ubicada en: Plaza Patria "
+                android:textColor="#613DC1" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Ubicada en el corazón de la ciudad, nuestra sucursal en Plaza Patria ofrece un ambiente moderno y cómodo para todos los niveles de entrenamiento. Con acceso fácil y amplio estacionamiento, es la opción ideal para quienes buscan conveniencia y calidad. Disfruta de un gimnasio bien equipado con las últimas máquinas de cardio y pesas, además de clases grupales para complementar tu rutina.  "
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sucursal2" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Sucursal &quot;Nombre&quot; / Ubicada en: Punto Sur"
+                android:textColor="#603DBF" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="En Punto Sur, OnFit te ofrece un gimnasio de primer nivel con todo lo necesario para alcanzar tus objetivos. Esta sucursal está equipada con lo mejor en maquinaria de ejercicio, un área exclusiva para entrenamientos funcionales y espacios diseñados para tu confort. Además, podrás disfrutar de clases exclusivas y una atención personalizada para que tu experiencia sea inigualable."
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sucursal3" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Sucursal &quot;Nombre / Ubicada en: La Gran Plaza "
+                android:textColor="#603DBF" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Nuestra sucursal en Gran Plaza se destaca por su ubicación estratégica, ofreciendo acceso rápido desde varias zonas de la ciudad. Con espacios amplios y un ambiente energético, aquí encontrarás equipos de última tecnología y una variedad de clases para mantener tu motivación al máximo. Además, contamos con un área de descanso para que puedas relajarte después de tu entrenamiento."
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="471dp"
+                android:src="@drawable/sucursal" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Planes disponibles"
+                android:textAlignment="center"
+                android:textColor="#462896"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Plan Básico: Fitness Start"
+                    android:textColor="#858AE3"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ideal para quienes desean empezar su viaje fitness de forma accesible."
+                    android:textColor="#040404" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Acceso a área de cardio y pesas"
+                    android:textColor="#040404" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Clases grupales limitadas (2 clases por semana)"
+                    android:textColor="#070707" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Uso de zonas de estiramiento y relajación"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Asesoramiento básico de entrenamiento (1 sesión por mes)"
+                    android:textColor="#090909" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¡$499 MXN al mes!"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#FF5722"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/buttonInscribirBasico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#97DFFC"
+                    android:text="¡Inscríbete ahora!" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Plan Avanzado: FitPro"
+                    android:textColor="#858AE3"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Para quienes buscan un entrenamiento más intenso y personalizado."
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Acceso completo a todas las áreas (cardio, pesas, funcional, estiramiento, etc.)"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Clases grupales ilimitadas"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Entrenamiento personalizado (4 sesiones al mes con un entrenador personal)"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Acceso a la zona de descanso y sauna"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Descuentos en productos y suplementos de la tienda del gimnasio"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¡$599 MXN al mes!"
+                    android:textAlignment="center"
+                    android:textColor="#FF5722"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/buttonInscribirAvanzado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#97DFFC"
+                    android:text="¡Inscríbete ahora!" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Plan Premium: Elite OnFit"
+                    android:textColor="#858AE3"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="La opción más completa para quienes desean una experiencia fitness de lujo y un seguimiento constante."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Acceso completo a todas las instalaciones y servicios premium (cardio, pesas, funcional, estiramiento, etc.)"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Clases grupales ilimitadas y exclusivas"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Entrenamiento personalizado (8 sesiones al mes con un entrenador personal)"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Acceso exclusivo a zona de descanso, sauna, jacuzzi y masajesw"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Evaluaciones físicas mensuales y seguimiento personalizado"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Acceso prioritario a eventos especiales y workshops"
+                    android:textColor="#020202" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Horario de acceso: Lunes a Domingo, 24 horas"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="°Descuentos exclusivos en productos, suplementos y tienda del gimnasio"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¡$799 MXN al mes!"
+                    android:textAlignment="center"
+                    android:textColor="#FF5722"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/buttonInscribirPremium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#97DFFC"
+                    android:text="¡Inscríbete ahora!" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Nuestros Horarios"
+                android:textAlignment="center"
+                android:textColor="#452895"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunes - Viernes 5am - 11 pm"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sábado - Domingo 6am - 5pm"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCalificanos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#858AE3"
+                    android:text="@string/calificanos" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
