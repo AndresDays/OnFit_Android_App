@@ -1,5 +1,5 @@
 This project is a mobile application developed in Kotlin for Android devices, designed to manage gym trainers and users. 
-The app allows administrators to register, view, and update trainer information, while regular users have restricted access to view available data.
+The app allows administrators to register, view, and update trainer information, while regular users have restricted access to view available data. The project files are located in the master branch.
 
 *The PNG images in this branch showcase some of the application's interfaces.*
 
